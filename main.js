@@ -113,7 +113,6 @@ function saveTasks() {
 }
 
 // 6. Avoid XSS attack
-console.log(escapeHTML("<h1>Hello</h1>"));
 function escapeHTML(html) {
     const div = document.createElement("div");
     div.innerText = html;
